@@ -1,0 +1,6 @@
+{
+  "name": "Việt Phục - Tinh Hoa Y Phục Việt",
+  "description": "Bảo tàng số di sản trang phục 54 dân tộc Việt Nam, hệ thống phối đồ xác suất và thử đồ ảo AI Virtual Try-On.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

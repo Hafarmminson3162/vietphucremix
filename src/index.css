@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-heritage-red: #8B1E1E;
+  --color-heritage-darkred: #631313;
+  --color-heritage-gold: #D97706;
+  --color-heritage-lightgold: #FDE68A;
+  --color-heritage-cream: #FDFBF7;
+  --color-heritage-paper: #F4EFE6;
+  --color-heritage-indigo: #1E293B;
+  --color-heritage-jade: #0F766E;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+/* Custom scrollbar & aesthetic heritage touches */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F4EFE6;
+}
+::-webkit-scrollbar-thumb {
+  background: #D97706;
+  border-radius: 9999px;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #B45309 0%, #D97706 50%, #F59E0B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heritage-border-pattern {
+  background-image: radial-gradient(#D97706 0.75px, transparent 0.75px);
+  background-size: 12px 12px;
+}
+
+.modal-backdrop {
+  background-color: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(4px);
+}
